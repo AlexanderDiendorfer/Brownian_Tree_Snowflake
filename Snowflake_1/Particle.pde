@@ -11,7 +11,7 @@ class Particle {
   
   void update() {
     pos.x -= 1;
-    pos.y += random(-3, 3);
+    pos.y += random(-10, 10);
     
     float angle = pos.heading();
     angle = constrain(angle, 0, PI/6);
